@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 .nav-buttons{
-    margin-left: 60%;
+    margin-left: 45%;
 
 }
 
@@ -68,6 +68,7 @@ button:hover {
     padding-bottom: 2rem !important;
     top: 0;
     left: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link{
@@ -220,7 +221,7 @@ hr {
 }
 
 #banner {
-    background-image: url('../images/back.jpg');
+    background-image: url('../images/banner.webp');
     width: 100%;
     height: 60vh;
     background-size: cover;
@@ -235,8 +236,11 @@ hr {
 }
 
 #banner h1 {
-    color: coral;
+    color: #fff;
+}
 
+#banner h4 {
+    color: #fff;
 }
 
 #banner button {
@@ -245,4 +249,66 @@ hr {
 
 #banner button:hover {
     background-color: #1d1d1d;
+}
+
+footer {
+    background-color: #222222;
+}
+
+footer h5 {
+    color: #d8d8d8;
+    font-weight: 700;
+    font-size: 1.2rem;
+
+}
+
+footer li {
+    padding-bottom: 4px;
+}
+
+footer li a {
+    font-size: 0.8rem;
+    color: #999;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    color: #d8d8d8;
+}
+
+footer .copyright a {
+    color: #000;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    margin: 0 5px;
+}
+
+footer .copyright a:hover {
+    color: #fff;
+    background-color: #fb774b;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer .copyright img {
+    width: 40%;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar .brand {
+    color: coral;
+    margin: 3px 5px;
+    font-size: 1.5rem;
 }
